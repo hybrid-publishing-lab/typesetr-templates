@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid" version="3.0">
+  <metadata>
+    <dc:title id="title">Geschichtsbilder</dc:title>
+    <meta property="title-type" refines="#title">main</meta>
+    <meta property="display-seq" refines="#title">1</meta>
+    <dc:title id="subtitle">Kino, Kunst, Widerstand</dc:title>
+    <meta property="title-type" refines="#subtitle">subtitle</meta>
+    <meta property="display-seq" refines="#subtitle">2</meta>
+    <dc:creator id="pub-creator-1">Jacques Rancière</dc:creator>
+    <meta property="role" refines="pub-creator-1" scheme="marc:relators">aut</meta>
+    <meta property="file-as" refines="pub-creator-1">Rancière, Jacques</meta>
+    <dc:description>Die beiden hier gemeinsam publizierten Texte gehören zum selben Projekt. Beide wurden anlässlich der Ausstellung »Face à l’Histoire« geschrieben, die 1996 vom Centre Georges-Pompidou organisiert wurde. Der Essay »Bedeutungen und Figuren der Geschichte« wurde vom Kurator der Ausstellung, Jean-Paul Ameline, für den Ausstellungskatalog in Auftrag gegeben. Die öffentliche Bibliothek des Centre Pompidou hat parallel dazu die Aufführung einer Reihe von Dokumentarfilmen zum selben Thema organisiert. Und in diesem Rahmen hat Sylvie Astric mich gebeten, den Text »Das Unvergessliche« zu schreiben, der 1997 zusammen mit einem Essay von Jean-Louis Comolli in dem Band »Arrêt sur Histoire« in der Reihe »Supplémentaires« bei den Éditions du Centre Georges-Pompidou veröffentlicht wurde.Jacques Rancière</dc:description>
+    <dc:date>2012</dc:date>
+    <dc:subject>Merve</dc:subject>
+    <dc:identifier id="isbn">978-3-88396-331-0</dc:identifier>
+    <dc:identifier id="uuid">urn:uuid:585c6a7f-f94d-51a3-943e-959d35acdbeb</dc:identifier>
+    <dc:rights>Merve Verlag</dc:rights>
+    <dc:language>en</dc:language>
+    <meta property="dcterms:modified">2014-08-23T07:59:43Z</meta>
+  </metadata>
+  <manifest>
+    <item href="fonts/SourceSansPro-LightIt.otf" id="fonts-SourceSansPro-LightIt" media-type="application/vnd.ms-opentype"/>
+    <item href="fonts/SourceSansPro-BlackIt.otf" id="fonts-SourceSansPro-BlackIt" media-type="application/vnd.ms-opentype"/>
+    <item href="fonts/SourceSansPro-It.otf" id="fonts-SourceSansPro-It" media-type="application/vnd.ms-opentype"/>
+    <item href="fonts/SourceSansPro-Light.otf" id="fonts-SourceSansPro-Light" media-type="application/vnd.ms-opentype"/>
+    <item href="fonts/SourceSansPro-ExtraLight.otf" id="fonts-SourceSansPro-ExtraLight" media-type="application/vnd.ms-opentype"/>
+    <item href="fonts/SourceSansPro-SemiboldIt.otf" id="fonts-SourceSansPro-SemiboldIt" media-type="application/vnd.ms-opentype"/>
+    <item href="fonts/SourceSansPro-Regular.otf" id="fonts-SourceSansPro-Regular" media-type="application/vnd.ms-opentype"/>
+    <item href="fonts/SourceSansPro-BoldIt.otf" id="fonts-SourceSansPro-BoldIt" media-type="application/vnd.ms-opentype"/>
+    <item href="css/stylesheet.css" id="css-stylesheet" media-type="text/css"/>
+    <item href="fonts/SourceSansPro-Bold.otf" id="fonts-SourceSansPro-Bold" media-type="application/vnd.ms-opentype"/>
+    <item href="fonts/SourceSansPro-Black.otf" id="fonts-SourceSansPro-Black" media-type="application/vnd.ms-opentype"/>
+    <item href="fonts/SourceSansPro-Semibold.otf" id="fonts-SourceSansPro-Semibold" media-type="application/vnd.ms-opentype"/>
+    <item href="fonts/SourceSansPro-ExtraLightIt.otf" id="fonts-SourceSansPro-ExtraLightIt" media-type="application/vnd.ms-opentype"/>
+    <item href="toc.xhtml" id="toc" media-type="application/xhtml+xml" properties="nav"/>
+    <item href="ad2262665c949505e4ab524cd75a3705.jpg" id="cover-image" media-type="image/jpeg" properties="cover-image"/>
+    <item href="cover.xhtml" id="cover" media-type="application/xhtml+xml"/>
+    <item href="main.xhtml" id="main" media-type="application/xhtml+xml"/>
+    <item href="347c914df2019c5bf7abb08f4ce914ab.jpg" id="img-347c914df2019c5bf7abb08f4ce914ab" media-type="image/jpeg"/>
+    <item href="68b97cc4f31b24d156fff8efd24cd381.jpg" id="img-68b97cc4f31b24d156fff8efd24cd381" media-type="image/jpeg"/>
+  </manifest>
+  <spine>
+    <itemref idref="toc" linear="no"/>
+    <itemref idref="cover" linear="no"/>
+    <itemref idref="main" linear="yes"/>
+  </spine>
+</package>
