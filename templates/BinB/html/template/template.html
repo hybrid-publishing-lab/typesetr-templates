@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="typesetr" />
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <script src="//cdn.jsdelivr.net/jquery/2.1.1/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/jquery.fracs/0.11/jquery.fracs.min.js"></script>
+  <script src="//cdn.jsdelivr.net/jquery.fracs/0.11/jquery.outline.min.js"></script>
+  <link href='https://fonts.consortium.io/css/?family=TeX+Gyre+Heros:400,400italic,700' rel='stylesheet' type='text/css'>
+  <script type="text/javascript">$(document).ready(function(e){$("h1").each(function(e,t){var n=e+1;$(this).before('<p class="real_footnotes" />');var r=$("<a />");r.attr("name","chapter"+n);$(this).before(r);var i=$("<li />");var s=$("<a />");s.attr("href","#chapter"+n);s.text($(this).text());i.html(s);$(".contents").append(i)});$(".footnote").each(function(e,t){var n=e+1;var r=$(this).text()+' <span class="back_up">^</span>';var i=$("<a />");i.attr("name","footnote"+n);i.html(n+": "+r);i.addClass("foot_to_placeholder");i.attr("data-id",n);$(this).parent().parent().nextAll(".real_footnotes").first().append(i);$(this).parent().nextAll(".real_footnotes").first().append(i);var s=$("<a />");s.attr("href","#footnote"+n);s.text(n);s.addClass("placeholder_"+n);$(this).html(s)});$(".foot_to_placeholder").on("click",function(e){var t=$(".placeholder_"+$(this).attr("data-id")).offset().top;$("html,body").animate({scrollTop:t+"px"},0)})})</script>
+
+<script type="text/javascript">$(document).ready(function(){$(".scroll #outline").fracs("outline",{crop:true,margin:10,styles:[{selector:"h1",fillStyle:"rgb(190,190,190)",strokeWidth:100},{selector:"h2",fillStyle:"rgb(2,25,55)"},{selector:".real_footnotes",fillStyle:"rgb(43,133,202)"}],viewportStyle:{fillStyle:"rgba(29,119,194,0.3)"},viewportDragStyle:{fillStyle:"rgba(29,119,194,0.4)"}});$("#menu_btn").click(function(e){e.preventDefault();if($(this).hasClass("btn_open")){$("html").addClass("opennav");$(this).removeClass("btn_open")}else{$("html").removeClass("opennav");$(this).addClass("btn_open")}return false})})</script>
+
+
+  %(head)s
+
+  <style type="text/css">
+  .scroll {
+    z-index: 1;
+  }
+    </style>
+  
+</head>
+
+<body class="tex2jax_ignore">
+  <div class="left_menu">
+    <div id="menu_btn" class="btn_open"></div>
+    <a class="back" href="#"></a>
+    <ul class="contents">
+    </ul>
+  </div>
+
+  <div id="page">
+    <div class="contentwrap">
+      %(body)s
+    </div>
+  </div>
+</body>
+</html>
+
+
