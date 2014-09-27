@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid" version="3.0">
+  <metadata>
+    <dc:title id="title">Provocative Alloys</dc:title>
+    <meta property="title-type" refines="#title">main</meta>
+    <meta property="display-seq" refines="#title">1</meta>
+    <dc:creator id="pub-creator-1"></dc:creator>
+    <meta property="role" refines="pub-creator-1" scheme="marc:relators">aut</meta>
+    <meta property="file-as" refines="pub-creator-1"></meta>
+    <dc:date>2014-09-04</dc:date>
+    <dc:identifier id="uuid">urn:uuid:e87fc5a5-386a-5141-9d83-28132b569d83</dc:identifier>
+    <dc:language>en</dc:language>
+    <meta property="dcterms:modified">2014-09-04T13:29:54Z</meta>
+  </metadata>
+  <manifest>
+	
+	<item href="fonts/cinzel-regular.eot" id="fonts-cinzel-regular-eot" media-type="application/vnd.ms-opentype"/>
+	<item href="fonts/cinzel-regular.svg" id="fonts-cinzel-regular-svg" media-type="application/vnd.ms-opentype"/>
+	<item href="fonts/cinzel-regular.ttf" id="fonts-cinzel-regular-ttf" media-type="application/vnd.ms-opentype"/>
+	<item href="fonts/cinzel-regular.woff" id="fonts-cinzel-regular-woff" media-type="application/vnd.ms-opentype"/>
+	<item href="fonts/cinzel-regular.woff2" id="fonts-cinzel-regular-woff2" media-type="application/vnd.ms-opentype"/>
+	
+	<item href="fonts/halant-medium.eot" id="fonts-halant-medium-eot" media-type="application/vnd.ms-opentype"/>
+	<item href="fonts/halant-medium.svg" id="fonts-halant-medium-svg" media-type="application/vnd.ms-opentype"/>
+	<item href="fonts/halant-medium.ttf" id="fonts-halant-medium-ttf" media-type="application/vnd.ms-opentype"/>
+	<item href="fonts/halant-medium.woff" id="fonts-halant-medium-woff" media-type="application/vnd.ms-opentype"/>
+	<item href="fonts/halant-medium.woff2" id="fonts-halant-medium-woff2" media-type="application/vnd.ms-opentype"/>
+	
+	<item href="fonts/halant-regular.eot" id="fonts-halant-regular-eot" media-type="application/vnd.ms-opentype"/>
+	<item href="fonts/halant-regular.svg" id="fonts-halant-regular-svg" media-type="application/vnd.ms-opentype"/>
+	<item href="fonts/halant-regular.ttf" id="fonts-halant-regular-ttf" media-type="application/vnd.ms-opentype"/>
+	<item href="fonts/halant-regular.woff" id="fonts-halant-regular-woff" media-type="application/vnd.ms-opentype"/>
+	<item href="fonts/halant-regular.woff2" id="fonts-halant-regular-woff2" media-type="application/vnd.ms-opentype"/>
+	
+	<item href="fonts/halant-semibold.eot" id="fonts-halant-semibold-eot" media-type="application/vnd.ms-opentype"/>
+	<item href="fonts/halant-semibold.svg" id="fonts-halant-semibold-svg" media-type="application/vnd.ms-opentype"/>
+	<item href="fonts/halant-semibold.ttf" id="fonts-halant-semibold-ttf" media-type="application/vnd.ms-opentype"/>
+	<item href="fonts/halant-semibold.woff" id="fonts-halant-semibold-woff" media-type="application/vnd.ms-opentype"/>
+	<item href="fonts/halant-semibold.woff2" id="fonts-halant-semibold-woff2" media-type="application/vnd.ms-opentype"/>
+	
+	<item href="fonts/notoserif-bold.eot" id="fonts-notoserif-bold-eot" media-type="application/vnd.ms-opentype"/>
+	<item href="fonts/notoserif-bold.svg" id="fonts-notoserif-bold-svg" media-type="application/vnd.ms-opentype"/>
+	<item href="fonts/notoserif-bold.ttf" id="fonts-notoserif-bold-ttf" media-type="application/vnd.ms-opentype"/>
+	<item href="fonts/notoserif-bold.woff" id="fonts-notoserif-bold-woff" media-type="application/vnd.ms-opentype"/>
+	<item href="fonts/notoserif-bold.woff2" id="fonts-notoserif-bold-woff2" media-type="application/vnd.ms-opentype"/>
+	
+
+	<item href="jquery-1.11.1.min" id="jquery" media-type=""/>
+	<item href="footnotes" id="footnotes" media-type=""/>
+
+    <item href="toc.xhtml" id="toc" media-type="application/xhtml+xml" properties="nav"/>
+    <item href="fc38ea8b80d88907ccf0275692c7c463.jpg" id="cover-image" media-type="image/jpeg" properties="cover-image"/>
+    <item href="cover.xhtml" id="cover" media-type="application/xhtml+xml"/>
+    <item href="main.xhtml" id="main" media-type="application/xhtml+xml"/>
+    <item href="2ee1cd034daa55e405d3c53156cb2c0d.jpg" id="img-2ee1cd034daa55e405d3c53156cb2c0d" media-type="image/jpeg"/>
+    <item href="3f22b9a2f4f8b17850bb419402dc5100.jpg" id="img-3f22b9a2f4f8b17850bb419402dc5100" media-type="image/jpeg"/>
+    <item href="c837aa0f67d85f4c722b11645cb97325.jpg" id="img-c837aa0f67d85f4c722b11645cb97325" media-type="image/jpeg"/>
+    <item href="4a55111f0c989147c9e0113fdbb460aa.jpg" id="img-4a55111f0c989147c9e0113fdbb460aa" media-type="image/jpeg"/>
+    <item href="eed953473335efa5cb9fe357ebb4921b.jpg" id="img-eed953473335efa5cb9fe357ebb4921b" media-type="image/jpeg"/>
+    <item href="be96ef56e95b5efd21e13eea7ff66b73.jpg" id="img-be96ef56e95b5efd21e13eea7ff66b73" media-type="image/jpeg"/>
+    <item href="d048f0e9ccb5edb0177489bfbcf2b242.jpg" id="img-d048f0e9ccb5edb0177489bfbcf2b242" media-type="image/jpeg"/>
+    <item href="ac4767639018b1013653471b31e1c01c.jpg" id="img-ac4767639018b1013653471b31e1c01c" media-type="image/jpeg"/>
+    <item href="332d80c88d073c7ef3400bd7c633525d.jpg" id="img-332d80c88d073c7ef3400bd7c633525d" media-type="image/jpeg"/>
+    <item href="c0e949be995ce5d6f18259cd06c0b71b.jpg" id="img-c0e949be995ce5d6f18259cd06c0b71b" media-type="image/jpeg"/>
+    <item href="f6ac1bc7c976b138a614221c093b4a4f.jpg" id="img-f6ac1bc7c976b138a614221c093b4a4f" media-type="image/jpeg"/>
+    <item href="f4b6525b1ef4e247b3539e3819133e6f.jpg" id="img-f4b6525b1ef4e247b3539e3819133e6f" media-type="image/jpeg"/>
+    <item href="69d2936a095e12168e003967b60c8480.jpg" id="img-69d2936a095e12168e003967b60c8480" media-type="image/jpeg"/>
+    <item href="374a809d10b62f940017c15c90beafbb.jpg" id="img-374a809d10b62f940017c15c90beafbb" media-type="image/jpeg"/>
+    <item href="e2ebd7701699ce2750a3f35f87cb6ff5.jpg" id="img-e2ebd7701699ce2750a3f35f87cb6ff5" media-type="image/jpeg"/>
+    <item href="a23867af1b72049a044d61668d0b84a2.jpg" id="img-a23867af1b72049a044d61668d0b84a2" media-type="image/jpeg"/>
+    <item href="96f264c9bb42822770ff494688450a3d.jpg" id="img-96f264c9bb42822770ff494688450a3d" media-type="image/jpeg"/>
+    <item href="09a6c462b1f6fd896276407c3956e52f.jpg" id="img-09a6c462b1f6fd896276407c3956e52f" media-type="image/jpeg"/>
+  </manifest>
+  <spine>
+    <itemref idref="toc" linear="no"/>
+    <itemref idref="cover" linear="no"/>
+    <itemref idref="main" linear="yes"/>
+  </spine>
+</package>

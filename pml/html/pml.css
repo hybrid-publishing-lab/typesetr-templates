@@ -1,0 +1,167 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'cinzelregular';
+    src: url('fonts/cinzel-regular.eot');
+    src: url('fonts/cinzel-regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/cinzel-regular.woff2') format('woff2'),
+         url('fonts/cinzel-regular.woff') format('woff'),
+         url('fonts/cinzel-regular.ttf') format('truetype'),
+         url('fonts/cinzel-regular.svg#cinzelregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'halantregular';
+    src: url('fonts/halant-regular.eot');
+    src: url('fonts/halant-regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/halant-regular.woff2') format('woff2'),
+         url('fonts/halant-regular.woff') format('woff'),
+         url('fonts/halant-regular.ttf') format('truetype'),
+         url('fonts/halant-regular.svg#halantregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'halantmedium';
+    src: url('fonts/halant-medium.eot');
+    src: url('fonts/halant-medium.eot?#iefix') format('embedded-opentype'),
+         url('fonts/halant-medium.woff2') format('woff2'),
+         url('fonts/halant-medium.woff') format('woff'),
+         url('fonts/halant-medium.ttf') format('truetype'),
+         url('fonts/halant-medium.svg#halantmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'halantsemibold';
+    src: url('fonts/halant-semibold.eot');
+    src: url('fonts/halant-semibold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/halant-semibold.woff2') format('woff2'),
+         url('fonts/halant-semibold.woff') format('woff'),
+         url('fonts/halant-semibold.ttf') format('truetype'),
+         url('halant-semibold.svg#halantsemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'noto_serifbold';
+    src: url('notoserif-bold.eot');
+    src: url('notoserif-bold.eot?#iefix') format('embedded-opentype'),
+         url('notoserif-bold.woff2') format('woff2'),
+         url('notoserif-bold.woff') format('woff'),
+         url('notoserif-bold.ttf') format('truetype'),
+         url('notoserif-bold.svg#noto_serifbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+   html { background-color: #D3DBD7;}
+   h1, h2, h3, h4 { font-family: 'cinzelregular'; font-weight:200; text-transform:uppercase !important;}
+   
+h1 {
+	border-top: solid 30px #D3DBD7;
+	font-size:40px !important;
+	line-height:55px;
+	margin-bottom:30px;
+	margin-top:55px;
+	padding-left:40%;
+	padding-right:40%;
+	text-align:center;
+	padding-top:100px;
+}
+
+h1.title {
+	width:130% !important;
+	font-weight: 200;
+	margin-left: -15% !important;
+	padding-left: 40% !important;
+	padding-right: 40% !important;
+}
+
+p {
+	text-align: left;
+	line-height:1.4em;
+}
+
+   h1 span{
+
+font-size:40px !important;
+line-height:44px;
+}
+
+   h1 a{
+font-family: 'cinzelregular'; font-weight:200; text-transform:uppercase !important;
+}
+
+   h2 {
+	   font-weight:400;
+	   font-size:18px;
+	   line-height:28px;
+	   margin-bottom:50px;
+	   text-align:center;
+}
+
+blockquote {
+margin: 6% 8% 6% 8%;
+border-top: solid 1px #D3DBD7;
+border-bottom: solid 1px #D3DBD7;
+font-family: 'halantregular';
+padding: 2% 0%;
+}
+
+
+body { 
+   font-family: 'halantregular';
+}
+
+strong, b {font-family: 'halantmedium'; font-weight:500;}
+
+.noteref {
+font-size: 0.6em;
+/* margin-top: 0px; */
+}
+
+a {
+	color:#A1A7A4;
+	text-decoration:underline;
+}
+
+.rearnote {
+font-size: 0.7em;
+font-weight: 600;
+font-family: 'halantsemibold';
+color: rgba(116,116,116,1.00);
+}
+
+.real_footnotes a {
+font-size: 0.7em;
+font-weight: 600;
+font-family: 'halantsemibold';
+color: rgba(116,116,116,1.00);
+text-decoration:none;
+}
+
+.footnote {
+line-height: 1.4;
+font-size: 0.6em;
+margin-top: 0px;
+display: inline-block;
+font-weight: 400;
+font-family: 'halantregular';
+vertical-align: super;
+}
+
+.back_up {
+	cursor:pointer;
+	color: #A1A7A4;
+}
